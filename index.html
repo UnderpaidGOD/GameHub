@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Archive | Game Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-black border-bottom border-info">
+        <div class="container">
+            <a class="navbar-brand text-uppercase fw-bold" href="index.html">
+                <i class="bi bi-joystick me-2 text-info"></i>Gamer's Hub
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/rpg.html">RPG</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/open-world.html">Open World</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning fw-bold" href="pages/game.html">PLAY GAMES</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container py-5">
+        <div class="text-center mb-5 bg-dark p-5 rounded border border-info">
+            <h1 class="display-1 fw-900 text-uppercase hero-heading">The <span class="text-info">Gaming</span> Archive</h1>
+            <p class="lead mt-4">Welcome to the definitive digital resource for video game history and mechanical analysis.</p>
+            <p class="text-light mx-auto" style="max-width: 800px;">
+                Video games are more than just entertainment; they are complex ecosystems of code, art, and player psychology. This archive was designed to break down the barriers between casual play and technical understanding. Our mission is to explore how different genres—ranging from the stat-heavy Role-Playing Game to the boundless freedom of the Open World—shape our digital experiences. 
+            </p>
+            <p class="text-light mx-auto" style="max-width: 800px;">
+                By examining the logic behind leveling systems and emergent gameplay, we can appreciate the immense engineering required to build these worlds. This site serves as a portfolio of web development techniques, including Bootstrap grid layouts, SASS pre-processing, and interactive JavaScript modules. Dive in and discover the systems that power your favorite virtual adventures.
+            </p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-4">
+                <div class="genre-card text-center p-4 h-100">
+                    <i class="bi bi-shield-shaded fs-1 text-info mb-3"></i>
+                    <h2 class="heading-accent">RPG</h2>
+                    <p class="small">Master the art of character progression, statistical growth, and immersive narrative branching in our deep-dive archive.</p>
+                    <a href="pages/rpg.html" class="btn btn-outline-info mt-3">Learn More</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="genre-card text-center p-4 h-100">
+                    <i class="bi bi-globe-americas fs-1 text-info mb-3"></i>
+                    <h2 class="heading-accent">Open World</h2>
+                    <p class="small">Explore the mechanics of sandbox freedom, seamless world-building, and the physics of digital exploration.</p>
+                    <a href="pages/open-world.html" class="btn btn-outline-info mt-3">Learn More</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="genre-card text-center p-4 h-100 border-warning">
+                    <i class="bi bi-cpu fs-1 text-warning mb-3"></i>
+                    <h2 class="text-warning">Arcade</h2>
+                    <p class="small">Test your skills with our interactive UNO module, built purely with modern JavaScript and real-time logic.</p>
+                    <a href="pages/game.html" class="btn btn-warning mt-3">Play Now</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid py-4 mt-5 text-center bg-black border-top border-info">
+        <p class="small text-muted">&copy; 2026 Theo Edwards | Web 127 Assignment 14</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
